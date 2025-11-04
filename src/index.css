@@ -1,0 +1,64 @@
+@import 'https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap';
+
+@import 'tailwindcss';
+
+@tailwind utilities;
+
+@theme {
+  --color-black: #000;
+  --color-white: #fff;
+  --color-main: #c2d1ff;
+  --color-orange: green;
+  --color-header: #b32424;
+  --color-sidebar: #efefef;
+  --color-body: #0b0e14;
+  /* #0b0e14 */
+  /* #0f172a */
+  --color-line: #2d3757;
+  --padding-main: 4px;
+  --color-hover: white;
+}
+
+/* @theme {
+  --color-black: #000;
+  --color-white: #fff;
+  --color-main: #747474;
+  --color-orange: green;
+  --color-header: #b32424;
+  --color-sidebar: #efefef;
+  --color-body: #fff;
+  --color-line: #000000;
+  --padding-main: 4px;
+  --color-hover: gray;
+} */
+
+body {
+  background: var(--color-body);
+  overflow: hidden;
+  color: var(--color-main);
+}
+
+img.background {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  left: 10%;
+}
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+*::-webkit-scrollbar {
+  width: 3px; /* Ширина всего элемента навигации */
+}
+
+*::-webkit-scrollbar-track {
+  background: #192645; /* Цвет дорожки */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #c2d1ff; /* Цвет бегунка */
+  border-radius: 20px; /* Округление бегунка */
+  border: 3px solid #c2d1ff; /* Оформление границ бегунка */
+}
