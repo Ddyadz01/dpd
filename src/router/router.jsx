@@ -4,6 +4,7 @@ import App from '../pages/App'
 import Start from '../pages/Loading/Start'
 import Intro from '../pages/Loading/Intro'
 import Checking from '../pages/Loading/Checking/Checking'
+import NotFound from "../pages/NotFoundPage.jsx"
 
 const routes = createBrowserRouter([
   {
@@ -11,6 +12,7 @@ const routes = createBrowserRouter([
     Component: App,
     children: [
       { index: true, Component: Home },
+  { path: '*', Component: NotFound },
       {
         path: '/car-loading',
         Component: Start,
