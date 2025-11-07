@@ -5,7 +5,8 @@ import { Link } from 'react-router'
 const NotFound = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen">
-      <Title text={'Error 404 :) | Страница не найдена'} className={'text-accent-primary'} />
+      <Title text={'Error 404 :) | Здесь пока пусто '} className={'text-accent-primary'} />
+
       <Link
         to="/"
         className=" bg-accent-primary mt-10 text-white p-3 rounded-xl border-b-accent-primary border-b"

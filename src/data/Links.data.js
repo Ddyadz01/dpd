@@ -50,16 +50,16 @@ export const SECTIONS_LOADING = {
       icon: Power,
     },
     {
-      id: 2,
-      title: 'Проверка ТС',
-      link: '/car-loading/checking',
-      icon: BadgeCheck,
-    },
-    {
       id: 5,
       title: 'Работа с почтой',
       link: '/car-loading/email',
       icon: AtSign,
+    },
+    {
+      id: 4,
+      title: 'Межгород',
+      link: '/car-loading/intercity',
+      icon: Truck,
     },
     {
       id: 13,
@@ -68,10 +68,10 @@ export const SECTIONS_LOADING = {
       icon: ScanFace,
     },
     {
-      id: 4,
-      title: 'Межгород',
-      link: '/car-loading/intercity',
-      icon: Truck,
+      id: 2,
+      title: 'Проверка ТС',
+      link: '/car-loading/checking',
+      icon: BadgeCheck,
     },
 
     {
