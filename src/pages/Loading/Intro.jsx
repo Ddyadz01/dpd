@@ -3,7 +3,7 @@ import React from 'react'
 const Intro = () => {
   return (
     <div className="mt-3 text-sm md:text-base leading-relaxed space-y-3">
-      <div className="mt-3 rounded-lg border border-[#2b3250] bg-[#0f1422]/70 px-3 py-3 text-sm md:text-base">
+      <div className="mt-3 rounded-lg border border-border-surface bg-surface-header/70 px-3 py-3 text-sm md:text-base">
         <p>
           Этот раздел посвящён <b>правильной работе по манифесту выхода</b>: что проверять и с чего
           начинать перед отправкой, а также работе с почтой, межгородом, <b>АРГИС</b> (корпоративное

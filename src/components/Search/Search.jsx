@@ -9,7 +9,7 @@ const Search = () => {
   }
   return (
     <input
-      className="border-line border w-full rounded-lg p-2 outline-0 text-sm focus:border-main transition"
+      className="w-full bg-transparent text-sm text-text-contrast placeholder:text-text-muted outline-none focus:outline-none"
       type="text"
       value={searchValue}
       onChange={onChange}

@@ -16,9 +16,9 @@ const App = () => {
     <div className="">
       <Header />
       <Container classname={'mt-5'}>
-        <div className="flex min-h-screen h-screen">
+        <div className="flex gap-6 min-h-screen items-start">
           <Sidebar />
-          <div className=" w-full">
+          <div className="w-full">
             <Outlet />
           </div>
         </div>

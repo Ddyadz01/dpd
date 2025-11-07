@@ -1,12 +1,11 @@
 import React from 'react'
-import Title from '../../../components/Title/Title'
 import TextHeading from '../../../components/TextHeading/textHeading'
 import { ImageContainer } from '../../../components/ImageContainer/ImageContainer'
 
 const Checking = () => {
   return (
     <div>
-      <div className="mt-6 rounded-xl border border-[#2b3250] bg-[#131827]/80 backdrop-blur-sm p-4 md:p-5 shadow-sm space-y-3 text-sm md:text-base leading-relaxed">
+      <div className="mt-6 rounded-xl   p-4 md:p-5 space-y-3 text-sm md:text-base leading-relaxed">
         <p>
           Каждое транспортное средство
           <b>
@@ -24,7 +23,7 @@ const Checking = () => {
         </ul>
       </div>
       <div className="mt-6 grid gap-8 md:grid-cols-2 md:gap-8">
-        <div className="rounded-xl border border-[#2b3250] bg-[#131827]/80 backdrop-blur-sm p-4 md:p-5 shadow-sm text-sm md:text-base leading-relaxed">
+        <div className="p-4 md:p-5  text-sm md:text-base leading-relaxed">
           <TextHeading text={'Тентованные'} />
           <p className="mt-2">
             Тентованный прицеп (штора) — универсальный вариант для паллет, коробок и
@@ -48,7 +47,7 @@ const Checking = () => {
             <li>Целостность тросов для опломбировки и исправность точек крепления пломбы.</li>
           </ul>
         </div>
-        <div className="rounded-xl border border-[#2b3250] bg-[#131827]/80 backdrop-blur-sm p-4 md:p-5 shadow-sm text-sm md:text-base leading-relaxed">
+        <div className=" p-4 md:p-5 text-sm md:text-base leading-relaxed">
           <TextHeading text={'Рефрижератор'} />
           <p className="mt-2">
             Рефрижератор — прицеп с холодильной установкой для грузов, требующих температурный режим
@@ -70,7 +69,7 @@ const Checking = () => {
             <li>Целостность дверных уплотнителей, исправность датчиков/терморегистратора.</li>
           </ul>
         </div>
-        <div className="rounded-xl border border-[#2b3250] bg-[#131827]/80 backdrop-blur-sm p-4 md:p-5 shadow-sm md:col-span-2 text-sm md:text-base leading-relaxed">
+        <div className=" p-4 md:p-5  md:col-span-2 text-sm md:text-base leading-relaxed">
           <TextHeading text={'Контейнер'} />
           <p className="mt-2">
             Контейнер (сухогрузный или изотермический) — удобен для мультимодальных перевозок,
