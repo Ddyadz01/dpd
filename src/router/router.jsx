@@ -5,6 +5,7 @@ import Start from '../pages/Loading/Start'
 import Intro from '../pages/Loading/Intro'
 import Checking from '../pages/Loading/Checking/Checking'
 import NotFound from '../pages/NotFound/NotFoundPage.jsx'
+import { EmailPage } from '../pages/Loading/Email/Email.jsx'
 
 const routes = createBrowserRouter([
   {
@@ -19,6 +20,7 @@ const routes = createBrowserRouter([
         children: [
           { index: true, Component: Intro },
           { path: 'checking', Component: Checking },
+          { path: 'email', Component: EmailPage },
         ],
       },
     ],
