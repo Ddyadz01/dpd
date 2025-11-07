@@ -32,10 +32,10 @@ const SectionItem = ({ data }) => {
             <li
               key={item?.id}
               className={cn(
-                'flex items-center justify-between group transition rounded-xl px-3 py-2 text-sm text-text-muted border border-transparent mr-1',
+                'flex items-center justify-between group transition rounded-xl px-3 py-2 text-sm text-text-muted mr-1',
                 path == item?.link
-                  ? 'bg-accent-primary text-white border border-accent-primary shadow-md'
-                  : 'hover:border-[#f14242] hover:bg-[#ffe7e7] hover:text-text-contrast',
+                  ? 'bg-accent-primary text-white  shadow-md'
+                  : 'hover:bg-[#dbdbdb] hover:text-text-contrast',
               )}
             >
               <Link
