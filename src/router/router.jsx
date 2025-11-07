@@ -6,6 +6,8 @@ import Intro from '../pages/Loading/Intro'
 import Checking from '../pages/Loading/Checking/Checking'
 import NotFound from '../pages/NotFound/NotFoundPage.jsx'
 import { EmailPage } from '../pages/Loading/Email/Email.jsx'
+import { DriverCheck } from './../pages/Loading/DriverCheck/DriverCheck'
+import { Intercity } from '../pages/Loading/Intercity/Intercity.jsx'
 
 const routes = createBrowserRouter([
   {
@@ -21,6 +23,8 @@ const routes = createBrowserRouter([
           { index: true, Component: Intro },
           { path: 'checking', Component: Checking },
           { path: 'email', Component: EmailPage },
+          { path: 'driver-check', Component: DriverCheck },
+          { path: 'intercity', Component: Intercity },
         ],
       },
     ],

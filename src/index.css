@@ -58,6 +58,9 @@
   --scroll-track: #f2f2f2;
   --hover-element: #dc0032;
 
+  --blur-md: 4px;
+  /* Блюр заднего фона */
+
   /* Алиасы для использования через @theme */
   --color-accent-primary: var(--accent-primary);
   --color-surface-body: var(--surface-body);

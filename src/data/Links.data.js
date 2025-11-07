@@ -64,7 +64,7 @@ export const SECTIONS_LOADING = {
     {
       id: 13,
       title: 'Работа с проверками водителей',
-      link: '/car-loading/security',
+      link: '/car-loading/driver-check',
       icon: ScanFace,
     },
     {
