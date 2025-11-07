@@ -63,7 +63,7 @@ export const SECTIONS_LOADING = {
     },
     {
       id: 13,
-      title: 'Работа с проверками водителей',
+      title: 'Проверка водителей',
       link: '/car-loading/driver-check',
       icon: ScanFace,
     },
