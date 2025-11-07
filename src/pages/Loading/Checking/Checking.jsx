@@ -1,11 +1,13 @@
 import React from 'react'
 import TextHeading from '../../../components/TextHeading/textHeading'
 import { ImageContainer } from '../../../components/ImageContainer/ImageContainer'
+import { TitleMedium } from '../../../components/TitleMedium/TitleMedium'
 
 const Checking = () => {
   return (
     <div>
       <div className="mt-6 rounded-xl  space-y-3 text-sm md:text-base leading-relaxed">
+        <TitleMedium text={'Общая информация'} />
         <p>
           Каждое транспортное средство
           <b>
